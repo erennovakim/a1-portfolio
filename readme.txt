@@ -14,10 +14,10 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 - */1 Readme
 - 2/2 Basic HTML content
 - 1/1 Basic CSS styling
-- */1 Advanced feature
-- */2 Responsive layout
+- 1/1 Advanced feature
+- 2/2 Responsive layout
 - */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+- 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
@@ -25,15 +25,20 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 1. At least one image with descriptive alt text
 2. Appropiate headings and paragraph text
 3. Semantic HTML tag(s) (footer)
+4. Links to external page(s)
+5. Multiple pages, with appropriate navigation between them
 
 
 
 (b) CSS features
 1. Modifying padding and margins to indent content and enhance readability
 2. Modifying link, text color, or other colors to be visually appealing
+3. Adding custom font(s) from Google fonts to add more personality (make sure to include appropriate fallbacks)
+
 
 
 (c) Advanced features
+1. Creating a more complex page layout (included a navigation bar)
 
 
 
@@ -43,15 +48,22 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 4. How long, in hours, did it take you to complete this assignment?
-2 hours so far
+8 hours so far
 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
+https://www.w3schools.com/css/css_navbar.asp
+https://www.w3schools.com/css/css3_buttons.asp
+https://developers.google.com/fonts/docs/material_icons
+https://www.youtube.com/watch?v=0KlhsihenPA
+https://www.geeksforgeeks.org/html/how-to-embed-pdf-file-using-html/
+https://www.geeksforgeeks.org/css/css-units-em-rem-px-vh-vw/
+https://www.w3schools.com/css/css3_mediaqueries.asp
 
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-
+I consulted Jullianna Lin for help with understanding CSS units (px vs % vs rem)
 
 
 7. Is there anything special we need to know in order to run your code?
