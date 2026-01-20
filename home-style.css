@@ -13,7 +13,7 @@ h1 {
   font-weight: normal; 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 720px) {
   h1 {
     font-size: 4rem;
   }
@@ -36,6 +36,7 @@ p, li {
   font-size: 1rem;
   font-weight: normal; 
   line-height: 1.5;
+  color: #30304d
 }
 
 /* nav bar styling */
@@ -103,20 +104,20 @@ p, li {
     flex: 1;
     display: flex;
     justify-content: center;
-    padding: 2rem;
+    padding: 1.4rem;
     width: 10rem;
 }
 
 .header-headshot img{
-    max-width: 30rem;
+    max-width: 36rem;
     min-width: 20rem;
     border-radius: 1.5rem;
 }
 
-@media (max-width: 768px) { /* Stacks items when the screen width is 768px or less */
+@media (max-width: 720px) {
     .header-container {
-        flex-direction: column; /* Stacks items vertically */
-        height: auto; /* Adjust height for the new vertical layout */
+        flex-direction: column;
+        height: auto;
     }
 }
 
@@ -128,11 +129,16 @@ p, li {
   justify-content: center;
   text-decoration: none;
   gap: 0.6rem;
-  background-color: #30304d;
-  color: #faf9f0;
   padding: 1.2rem 1.4rem;
-  line-height: 1;
+  background-color: #30304d;
   border-radius: 0.8rem;
+
+  font-family: 'Montserrat', 'Helvetica', sans-serif;
+  font-size: 1rem;
+  font-weight: normal; 
+  line-height: 1.5;
+  color: #faf9f0;
+  line-height: 1;
 }
 
 .button-style:hover{
@@ -168,14 +174,14 @@ p, li {
     box-sizing: border-box;
 }
 
-.pdf-container iframe {
+.pdf-container object {
     width: 100%;
     height: 100%;
     border: none;
     border-radius: 0.8rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 720px) {
   .resume-container {
     padding: 0.2rem;
   }
@@ -190,4 +196,12 @@ p, li {
 .footer-container {
   text-align: center;
   padding-bottom: 2rem;
+}
+
+.link {
+  color: #4b2fb1;
+}
+
+.link:hover{
+  color: #e67700;
 }
