@@ -40,6 +40,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 (c) Advanced features
 1. I created a more complex page layout (included a navigation bar)
 2. I used the object tag to embed a PDF reader
+3. I created a grid that can be read using a screen reader
 
 
 
@@ -66,6 +67,9 @@ https://www.youtube.com/watch?v=0KlhsihenPA
 https://www.geeksforgeeks.org/html/how-to-embed-pdf-file-using-html/
 https://www.geeksforgeeks.org/css/css-units-em-rem-px-vh-vw/
 https://www.w3schools.com/css/css3_mediaqueries.asp
+https://css-tricks.com/a-quick-way-to-remember-difference-between-justify-content-align-items/
+https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout
+https://www.a11y-collective.com/blog/skip-to-main-content/
 
 
 

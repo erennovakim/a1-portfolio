@@ -112,16 +112,8 @@ p, li, .button-style {
   margin-bottom: 3rem;
 }
 
-.header-text h1, .header-text p{
+.header-text h1, .header-text h3{
   margin: 0;
-}
-
-/* styling the caption */
-
-.header-text p {
-  font-family: 'Merriweather', 'Times New Roman', serif;
-  font-size: 1.3rem;
-  font-weight: normal;
 }
 
 
