@@ -54,7 +54,7 @@ the same for both html accessibility checks.
 
 
 4. How long, in hours, did it take you to complete this assignment?
-8 hours
+10 hours
 
 
 

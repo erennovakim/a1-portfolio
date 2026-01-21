@@ -25,7 +25,13 @@ h2 {
   font-weight: normal; 
 }
 
-p, li {
+h3 {
+  font-family: 'Merriweather', 'Times New Roman', serif;
+  font-size: 1.6rem;
+  font-weight: normal; 
+}
+
+p, li, .button-style {
   font-family: 'Montserrat', 'Helvetica', sans-serif;
   font-size: 1rem;
   font-weight: normal; 
@@ -73,9 +79,11 @@ p, li {
   text-decoration: none;
 }
 
+/* styling for different states of the nav bar items */
+
 .nav-items li a.active {
   background-color: #30304d;
-  color: #f4f2df
+  color: #faf9f0
 }
 
 .nav-items li a:hover {
@@ -99,13 +107,16 @@ p, li {
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  text-align: left;
   gap: 2rem;
+  margin-bottom: 3rem;
 }
 
 .header-text h1, .header-text p{
   margin: 0;
 }
+
+/* styling the caption */
 
 .header-text p {
   font-family: 'Merriweather', 'Times New Roman', serif;
@@ -113,12 +124,12 @@ p, li {
   font-weight: normal;
 }
 
-.header-headshot {
-    flex: 1;
+
+ .header-headshot {
     display: flex;
     justify-content: center;
     padding: 1.4rem 2rem;
-    width: 10rem;
+    width: 50%;
 }
 
 .header-headshot img{
@@ -129,36 +140,27 @@ p, li {
 
 /* change header to vertical for mobile dimensions */
 
-@media (max-width: 720px) {
+@media (max-width: 1020px) {
     .header-container {
         flex-direction: column;
         height: auto;
     }
 
-    .header-headshot img {
-      margin: 0;
+    .header-headshot {
+      width: 100%;
     }
 }
 
 /* view my work button styling */
 
 .button-style {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  width: fit-content;
+  display: flex;
   text-decoration: none;
-  gap: 0.6rem;
   padding: 1.2rem 1.4rem;
-  background-color: #30304d;
-  border: 100rem;
   border-radius: 0.8rem;
-
-  font-family: 'Montserrat', 'Helvetica', sans-serif;
-  font-size: 1rem;
-  font-weight: normal; 
-  line-height: 1.5;
-  color: #faf9f0;
-  line-height: 1;
+  background-color: #30304d;
+  color:#faf9f0;
 }
 
 .button-style:hover{
@@ -177,8 +179,83 @@ blockquote {
 
 .paragraph-container {
   display: flex;
+  flex-direction: column;
   padding: 1.8rem 3.6rem;
   color:#30304d;
+}
+
+@media (max-width: 720px) {
+  .paragraph-container{
+    padding: 1.8rem 2rem;
+  }
+}
+
+/* work container styling */
+
+.work-container {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9d2de;
+  border-radius: 1.2rem;
+  max-width: 70rem;
+  margin-bottom: 2.8rem;
+}
+
+.work-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2.4rem;
+  width: 50%;
+}
+
+.work-container img {
+  width: 10rem;
+  border-radius: 0.4rem;
+  margin-right: 2.4rem;
+  min-width: 17rem;
+}
+
+/* change work container to vertical for mobile dimensions */
+
+@media (max-width: 720px) {
+    .work-container {
+        flex-direction: column;
+        height: auto;
+        padding: 2rem 0rem;
+    }
+
+    .work-text{
+      width: 86%;
+      padding: 0rem 2rem;
+    }
+
+    .work-container img {
+      margin: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+  #work-destination {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 2rem;
+  }
+
+  #work-destination h2 {
+    grid-column: 1 / span 2;
+  }
+
+  #work-destination .work-container {
+    margin: 0;
+    align-self: start;
+    max-width: none;
+    width: 100%;
+  }
+
 }
 
 /* resume page pdf reader styling */
