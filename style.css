@@ -11,6 +11,8 @@ h1 {
   font-weight: normal; 
 }
 
+/* adujust h1 font size for mobile/smaller dimensions */
+
 @media (max-width: 720px) {
   h1 {
     font-size: 4rem;
@@ -18,12 +20,6 @@ h1 {
 }
 
 h2 {
-  font-family: 'Merriweather', 'Times New Roman', serif;
-  font-size: 1.3rem;
-  font-weight: normal; 
-}
-
-h3 {
   font-family: 'Merriweather', 'Times New Roman', serif;
   font-size: 2.2rem;
   font-weight: normal; 
@@ -93,7 +89,7 @@ p, li {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1.6rem;
+  padding: 2.8rem 3.6rem;
   height: 36rem;
   background-color: #d9d2de;
   color:#30304d;
@@ -104,19 +100,24 @@ p, li {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0rem 2rem;
   gap: 2rem;
 }
 
-.header-text h1, .header-text h2, .header-text p{
+.header-text h1, .header-text p{
   margin: 0;
+}
+
+.header-text p {
+  font-family: 'Merriweather', 'Times New Roman', serif;
+  font-size: 1.3rem;
+  font-weight: normal;
 }
 
 .header-headshot {
     flex: 1;
     display: flex;
     justify-content: center;
-    padding: 1.4rem 0rem;
+    padding: 1.4rem 2rem;
     width: 10rem;
 }
 
